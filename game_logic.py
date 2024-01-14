@@ -35,7 +35,7 @@ def determine_winner(user_input, computer_input):
 def get_user_choice():
     for _ in range(iterations):
         user_choice = input("Enter your choice (Rock, Paper, or Scissor): ")
-        computer_choice = random.choice(choices)
+        my_choice = random.choice(choices)
 
         print(f'Your choice: {user_choice}')
         print(f'My choice: {my_choice}')
@@ -51,3 +51,6 @@ def get_user_choice():
     # Display final points after all iterations
     print(f"\nFinal Points - You: {points_fr_me}, Computer: {points_fr_user}")
 
+
+
+get_user_choice()

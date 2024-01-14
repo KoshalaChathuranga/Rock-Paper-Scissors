@@ -95,7 +95,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QLabel" name="com_points">
+      <widget class="QLabel" name="forComputer">
        <property name="font">
         <font>
          <pointsize>24</pointsize>
